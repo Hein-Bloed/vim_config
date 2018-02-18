@@ -13,3 +13,4 @@ runtime! config/plugins/ctrlp.vim
 runtime! config/plugins/fugitive.vim
 runtime! config/plugins/deoplete.vim
 runtime! config/plugins/lsp.vim
+runtime! config/plugins/nerdcommenter.vim

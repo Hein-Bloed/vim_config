@@ -46,6 +46,8 @@ call dein#add('SirVer/ultisnips')
 
 call dein#add('octol/vim-cpp-enhanced-highlight')
 
+call dein#add('scrooloose/nerdcommenter')
+
 call dein#end()
 call dein#save_state()
 
