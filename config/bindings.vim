@@ -25,7 +25,7 @@ map <leader>fs :w<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Get character at offset relative to cursor
-function PeekChar(offset)
+function! PeekChar(offset)
     return getline(".")[col(".") - 1 + a:offset]
 endfunction
 

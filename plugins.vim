@@ -27,8 +27,7 @@ call dein#add('ctrlpvim/ctrlp.vim',
 
 call dein#add('jiangmiao/auto-pairs')
 
-call dein#add('tpope/vim-fugitive',
-    \{'on_cmd' : 'Gstatus'})
+call dein#add('tpope/vim-fugitive')
 
 call dein#add('ntpeters/vim-better-whitespace')
 
@@ -43,7 +42,13 @@ if !has('nvim')
   call dein#add('roxma/vim-hug-neovim-rpc')
 endif
 
+call dein#add('SirVer/ultisnips')
+
+call dein#add('octol/vim-cpp-enhanced-highlight')
+
 call dein#end()
+call dein#save_state()
+
 
 if dein#check_install()
   call dein#install()

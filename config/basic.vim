@@ -13,4 +13,4 @@ set number          " add line numbers
 set noshowmode      " don't need to show mode since we have airline
 set wildmenu        " enable command autocompletion
 set fillchars=""
-
+filetype on
