@@ -10,7 +10,6 @@ nnoremap <leader>ww <C-w><C-w>
 
 " buffer shortcuts
 map <leader>bd :bd<CR>
-nnoremap <leader>bf :ls<CR>:b<space>
 map <leader>bb :bnext<CR>
 
 
