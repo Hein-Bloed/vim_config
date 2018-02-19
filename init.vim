@@ -1,16 +1,16 @@
 " basic configs and bindings which work without plugins
-runtime! config/basic.vim
-runtime! config/bindings.vim
+runtime! before/basic.vim
+runtime! before/bindings.vim
 
 " install dein and all plugins
 runtime! plugins.vim
 
 " plugin configs
-runtime! config/plugins/nerdtree.vim
-runtime! config/plugins/airline.vim
-runtime! config/plugins/undotree.vim
-runtime! config/plugins/ctrlp.vim
-runtime! config/plugins/fugitive.vim
-runtime! config/plugins/deoplete.vim
-runtime! config/plugins/lsp.vim
-runtime! config/plugins/nerdcommenter.vim
+runtime! before/plugin/nerdtree.vim
+runtime! before/plugin/vim-airline.vim
+runtime! before/plugin/undotree.vim
+runtime! before/plugin/ctrlp.vim
+runtime! before/plugin/vim-fugitive.vim
+runtime! before/plugin/deoplete.vim
+runtime! before/plugin/LanguageClient-neovim.vim
+runtime! before/plugin/nerdcommenter.vim
