@@ -10,7 +10,9 @@ set expandtab       " converts tabs to white space
 set shiftwidth=4    " width for autoindents
 set autoindent      " indent a new line the same amount as the line jus typed
 set number          " add line numbers
+set relativenumber  " add relative line numbers
 set noshowmode      " don't need to show mode since we have airline
 set wildmenu        " enable command autocompletion
 set fillchars=""
-filetype plugin on
+filetype plugin indent on
+colorscheme obsidian
