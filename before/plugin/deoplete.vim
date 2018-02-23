@@ -1,8 +1,8 @@
 " enable deoplete at startup
 let g:deoplete#enable_at_startup = 1
-if !exists('g:deoplete#omni#input_patterns')
-  let g:deoplete#omni#input_patterns = {}
-endif
+" if !exists('g:deoplete#omni#input_patterns')
+  " let g:deoplete#omni#input_patterns = {}
+" endif
 
 let g:deoplete#sources = {}
 let g:deoplete#sources._ = []

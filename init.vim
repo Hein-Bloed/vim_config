@@ -6,11 +6,12 @@ runtime! before/bindings.vim
 runtime! plugins.vim
 
 " plugin configs
-runtime! before/plugin/nerdtree.vim
 runtime! before/plugin/vim-airline.vim
+runtime! before/plugin/nerdtree.vim
 runtime! before/plugin/undotree.vim
 runtime! before/plugin/ctrlp.vim
 runtime! before/plugin/vim-fugitive.vim
 runtime! before/plugin/deoplete.vim
 runtime! before/plugin/LanguageClient-neovim.vim
 runtime! before/plugin/nerdcommenter.vim
+runtime! before/plugin/a.vim

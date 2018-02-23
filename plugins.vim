@@ -26,9 +26,7 @@ call dein#add('ctrlpvim/ctrlp.vim',
     \{'on_cmd' : 'CtrlP'})
 
 call dein#add('jiangmiao/auto-pairs')
-
 call dein#add('tpope/vim-fugitive')
-
 call dein#add('ntpeters/vim-better-whitespace')
 
 call dein#add('autozimu/LanguageClient-neovim',
@@ -44,10 +42,15 @@ endif
 
 call dein#add('Shougo/neosnippet')
 call dein#add('Shougo/neosnippet-snippets')
-
 call dein#add('octol/vim-cpp-enhanced-highlight')
-
 call dein#add('scrooloose/nerdcommenter')
+call dein#add('skywind3000/asyncrun.vim')
+call dein#add('matze/vim-move')
+call dein#add('vim-scripts/a.vim',
+            \{'on_cmd' : 'A'})
+
+call dein#add('vhdirk/vim-cmake',
+            \{'on_cmd' : 'CMake'})
 
 call dein#end()
 call dein#save_state()

@@ -14,5 +14,9 @@ set relativenumber  " add relative line numbers
 set noshowmode      " don't need to show mode since we have airline
 set wildmenu        " enable command autocompletion
 set fillchars=""
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
 filetype plugin indent on
 colorscheme obsidian
