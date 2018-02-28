@@ -24,9 +24,9 @@ map <leader>fs :w<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Get character at offset relative to cursor
-function! PeekChar(offset)
+function PeekChar(offset)
     return getline(".")[col(".") - 1 + a:offset]
 endfunction
 
 " Conditionally remap Enter in insert mode
-inoremap <expr> <Enter> PeekChar(0) == ')' && PeekChar(-1) != ',' ? "\<Right>" : "\<Enter>"
+inoremap <expr><CR> PeekChar(0) == ')' && PeekChar(-1) != ',' ? "\<Right>" : "\<CR>"

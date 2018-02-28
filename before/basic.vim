@@ -14,7 +14,7 @@ set relativenumber  " add relative line numbers
 set noshowmode      " don't need to show mode since we have airline
 set wildmenu        " enable command autocompletion
 set fillchars=""
-set foldmethod=indent
+set foldmethod=syntax
 set foldnestmax=10
 set nofoldenable
 set foldlevel=2

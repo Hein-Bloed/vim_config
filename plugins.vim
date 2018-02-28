@@ -40,6 +40,7 @@ if !has('nvim')
   call dein#add('roxma/vim-hug-neovim-rpc')
 endif
 
+call dein#add('rhysd/vim-clang-format')
 call dein#add('Shougo/neosnippet')
 call dein#add('Shougo/neosnippet-snippets')
 call dein#add('octol/vim-cpp-enhanced-highlight')
