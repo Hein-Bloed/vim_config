@@ -15,3 +15,4 @@ runtime! before/plugin/deoplete.vim
 runtime! before/plugin/LanguageClient-neovim.vim
 runtime! before/plugin/nerdcommenter.vim
 runtime! before/plugin/a.vim
+runtime! before/plugin/better-whitespace.vim
