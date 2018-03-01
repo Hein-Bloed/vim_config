@@ -47,8 +47,10 @@ call dein#add('octol/vim-cpp-enhanced-highlight')
 call dein#add('scrooloose/nerdcommenter')
 call dein#add('skywind3000/asyncrun.vim')
 call dein#add('matze/vim-move')
-call dein#add('vim-scripts/a.vim',
-            \{'on_cmd' : 'A'})
+call dein#local("~/.config/nvim/local_plugs/",
+            \{},
+            \['a.vim'])
+
 
 call dein#add('vhdirk/vim-cmake',
             \{'on_cmd' : 'CMake'})
